@@ -3,7 +3,7 @@ import css from './Phonebook.module.css';
 
 export const Filter = ({ filter, onChange }) => (
   <label className={css.labelFilter}>
-    Serch contact
+    <span className={css.labelSerch}>Serch contact</span>
     <input
       className={css.filterInput}
       type="text"

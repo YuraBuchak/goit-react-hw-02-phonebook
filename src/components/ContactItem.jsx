@@ -6,14 +6,14 @@ export const ContactItem = ({ contactArrays, onClick }) => (
     {contactArrays.length ? (
       contactArrays.map(prop => (
         <li key={prop.id} className={css.listItem}>
-          {prop.name}: {prop.number}
+          {prop.name}: <span className={css.number}>{prop.number}</span>
           <button className={css.deleteBtn} onClick={() => onClick(prop.id)}>
             X
           </button>
         </li>
       ))
     ) : (
-      <p className={css.labelFilter}>Not found</p>
+      <p className={css.labelFilter}>No contacts!</p>
     )}
   </>
 );

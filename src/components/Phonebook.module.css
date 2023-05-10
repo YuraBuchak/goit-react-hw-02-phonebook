@@ -9,16 +9,17 @@
   border: 5px solid blueviolet;
   border-radius: 20px;
   background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .title {
   font-size: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
 }
 
 .titleFilter {
   font-size: 30px;
+  margin-left: 135px;
 }
 
 .addForm {
@@ -31,6 +32,8 @@
 
 .addContactLabel {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
   font-size: 20px;
   font-style: italic;
@@ -43,7 +46,7 @@
   width: 300px;
   height: 30px;
   background-color: black;
-  color: white;
+  color: antiquewhite;
   font-size: larger;
   border: 3px solid blueviolet;
   border-radius: 10px;
@@ -58,6 +61,8 @@
 
 .addBtn {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   padding: 5px;
   font-size: 20px;
@@ -89,13 +94,15 @@
   width: 300px;
   height: 30px;
   background-color: black;
-  color: white;
+  color: antiquewhite;
   font-size: larger;
   border: 3px solid blueviolet;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 5px;
   outline: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .filterInput:focus {
@@ -122,12 +129,13 @@
   display: inline-block;
   position: absolute;
 
-  right: 2px;
+  right: 30px;
   width: 30px;
-  padding: 5px;
-  font-size: 10px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: bold;
   color: blueviolet;
-  background-color: black;
+  background-color: antiquewhite;
   border: 3px solid blueviolet;
   border-radius: 50%;
 
@@ -139,4 +147,14 @@
 .deleteBtn:focus {
   border-color: red;
   color: red;
+}
+
+.number {
+  margin-left: 10px;
+  font-style: oblique;
+}
+
+.labelSerch {
+  margin-left: auto;
+  margin-right: auto;
 }
